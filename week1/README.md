@@ -123,4 +123,4 @@ You are given an array of integers, there is a **sliding window** of size $k$ wh
                        Maximum of 2, 3, 6 is 6<br>
 <br><br>
 # Submission format
-A google form will be floated soon where you need to submit a **zip-file** with name $<roll-number>.zip$ containing the files <br>*q1.cpp, q2.cpp, q3.cpp, q4.cpp, q5.cpp, q6.cpp, q7.cpp, q8.cpp, q9.cpp and q10.cpp* you solutions for the above 10 questions respectively.<br>
+A google form will be floated soon where you need to submit a **zip-file** with name **roll-number.zip** containing the files <br>*q1.cpp, q2.cpp, q3.cpp, q4.cpp, q5.cpp, q6.cpp, q7.cpp, q8.cpp, q9.cpp and q10.cpp* your solutions for the above 10 questions respectively.<br>
