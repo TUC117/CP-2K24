@@ -115,14 +115,14 @@ You are given an array of integers, there is a **sliding window** of size $k$ wh
 
 **Input:** arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}, K = 3  <br>
 **Output:** 3 3 4 5 5 5 6 <br>
-**Explanation:**
-                Maximum of 1, 2, 3 is 3 <br>
-                Maximum of 2, 3, 1 is 3<br>
-                Maximum of 3, 1, 4 is 4<br>
-                Maximum of 1, 4, 5 is 5<br>
-                Maximum of 4, 5, 2 is 5 <br>
-                Maximum of 5, 2, 3 is 5<br>
-                Maximum of 2, 3, 6 is 6<br>
+**Explanation:**<br>
+Maximum of 1, 2, 3 is 3 <br>
+Maximum of 2, 3, 1 is 3<br>
+Maximum of 3, 1, 4 is 4<br>
+Maximum of 1, 4, 5 is 5<br>
+Maximum of 4, 5, 2 is 5 <br>
+Maximum of 5, 2, 3 is 5<br>
+Maximum of 2, 3, 6 is 6<br>
 <br><br>
 # Submission format
 A google form will be floated soon where you need to submit a **zip-file** with name **roll-number.zip** containing the files <br>*q1.cpp, q2.cpp, q3.cpp, q4.cpp, q5.cpp, q6.cpp, q7.cpp, q8.cpp, q9.cpp and q10.cpp* your solutions for the above 10 questions respectively.<br>
