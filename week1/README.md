@@ -1,21 +1,22 @@
 # Welcome to Week 1 of Competitive Programming SOC 2k24
 
-In this repository, you can find assignments for Week 1.
+In this repository, you can find assignment for Week 1.
 
-**Deadline for submission of this assignment: June 1, 2024, 11.59 p.m. IST **
+**Deadline for submission of this assignment: June 1, 2024, 11.59 p.m. IST**
 <br><br><br><br>
 # Disclaimer
 All submissions will be subjected to plagiarism checks. Any instances of copying will result in immediate disqualification, and you will not receive a certificate for this Summer of Code (SOC) program. <br> **It is important that you fully understand the material you are submitting**.
 
 Failure to comply with these guidelines will have serious consequences.
 
-**And don't worry — if you focus on your own work and avoid looking at others' code, you won't be flagged for plagiarism. Each person has their own unique coding style. **<br>
-**You can discuss among yourselves, but make sure that you don't share code among yourselves. That's it.
+**And don't worry — if you focus on your own work and avoid looking at others' code, you won't be flagged for plagiarism. Each person has their own unique coding style.**<br>
+**You can discuss among yourselves, but make sure that you don't share code among yourselves. That's it.**
 <br><br><br><br>
 # Week-1 Assignment
 <br>
-This assignment consists of 10 easy questions. Each student should submit their code in the format specified in the submission area. <br>
-**This is a standard assignment. Do not copy under any circumstances. If you try your best, you will be able to solve the problems. If you have any doubts, please do not hesitate to reach out to us. **
+This assignment consists of 10 easy questions. Each student should submit their code in the format specified in the submission area.
+
+**This is a standard assignment. Do not copy under any circumstances. If you try your best, you will be able to solve the problems. If you have any doubts, please do not hesitate to reach out to us.**
 
 <br>
 
