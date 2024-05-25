@@ -1,27 +1,27 @@
 # Welcome to Week 1 of Competitive Programming SOC 2k24
 
-In this repository you can find assigment for this Week 1
+In this repository, you can find assignments for Week 1.
 
-**Deadline for submission of this assignment - 1st June 2024, 11.59pm IST**
+**Deadline for submission of this assignment: June 1, 2024, 11.59 p.m. IST **
 <br><br><br><br>
 # Disclaimer
-All submissions will be subjected to plagiarism checks. Any instances of copying will result in immediate disqualification, and you will not receive a certificate for this Summer of Code (SOC) program. <br>**It is important that you fully understand the material you are submitting**.
+All submissions will be subjected to plagiarism checks. Any instances of copying will result in immediate disqualification, and you will not receive a certificate for this Summer of Code (SOC) program. <br> **It is important that you fully understand the material you are submitting**.
 
 Failure to comply with these guidelines will have serious consequences.
 
-**And don't worry — if you focus on your own work and avoid looking at others' code, you won't be flagged for plagiarism. Each person has their own unique coding style.**<br> 
-**You can discuss among yourself but make sure that you don't share code among yourselves that's it**
+**And don't worry — if you focus on your own work and avoid looking at others' code, you won't be flagged for plagiarism. Each person has their own unique coding style. **<br>
+**You can discuss among yourselves, but make sure that you don't share code among yourselves. That's it.
 <br><br><br><br>
-# Week-1 Assigment
+# Week-1 Assignment
 <br>
-This assignment consists of 10 easy questions. Each student should submit their code in the format specified in the submission area.<br>
-**This is a standard assignment. Do not copy under any circumstances. If you try your best, you will be able to solve the problems. If you have any doubts, please do not hesitate to reach out to us.**
+This assignment consists of 10 easy questions. Each student should submit their code in the format specified in the submission area. <br>
+**This is a standard assignment. Do not copy under any circumstances. If you try your best, you will be able to solve the problems. If you have any doubts, please do not hesitate to reach out to us. **
 
 <br>
 
 ### 1. Think of an Optimal Solution
-Given an integer array and an integer k, return the length of the shortest non empty subarray whose sum is at least k. If there is no such subarray, return -1.<br>
-*Subarray* - A subarray is a contiguous segment of an array. It is defined by selecting a starting index and an ending index within the original array and includes all the elements between these two indices.<br>
+Given an integer array and an integer k, return the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, return -1. <br>
+*Subarray*: A subarray is a contiguous segment of an array. It is defined by selecting a starting index and an ending index within the original array and including all the elements between these two indices. <br>
 
 **Input1**: nums = [1], k = 1 <br>
 **Output1**: 1 <br>
@@ -58,7 +58,7 @@ The tests are generated such that there is exactly one solution. You may not use
 **Output:** [1,2] <br>
 <br>
 ### 4. Largest Sum - Kadane’s Algorithm
-Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and returns its sum and prints the subarray.
+Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum return its sum and prints the subarray.
 
 **Input:** arr = {-2,-3,4,-1,-2,1,5,-3} <br>
 **Output:** 7<br>
@@ -85,15 +85,15 @@ Given an integer array of size N, sorted in ascending order (with distinct value
 *Please read concept for basic bit manipulations before solving this question* <br>
 Given an integer n, find number of integers ‘x’ such that:
 1. $0<= x <= n.$
-2. $n + x = n\  XOR\  x$
+2. $n + x = n\  XOR\  x$
 
 **Input**: $n=5$<br>
 **Output**:4<br>
 Following values of x satisfy the equation <br>
 $5 \ XOR \ 0 = 5 \ – \ 0 = 5$ <br>
-$5\  XOR\  1 = 5 \ – \ 1 = 4$ <br>
-$5 \ XOR \ 4 = 5\  – \ 4 = 1$ <br>
-$5 \ XOR \ 5 = 5\  – \ 5 = 0$ <br>
+$5\  XOR\  1 = 5 \ – \ 1 = 4$ <br>
+$5 \ XOR \ 4 = 5\  – \ 4 = 1$ <br>
+$5 \ XOR \ 5 = 5\  – \ 5 = 0$ <br>
 <br>
 ### 8. XOR XOR XOR XOR
 Given an array of integers $A$ and an integer $B$. Find the total number of subarrays having bitwise $XOR$ of all elements equal to $k$.
@@ -103,7 +103,7 @@ Given an array of integers $A$ and an integer $B$. Find the total number of suba
 **Explanation:** The subarrays having XOR of their elements as $6$ are {4, 2}, {4, 2, 2, 6, 4}, {2, 2, 6} and {6}<br>
 <br>
 ### 9. String.. String.. where are your substrings
-Given a string of lowercase alphabets, count all possible substrings (not necessarily distinct) that have exactly k distinct characters. 
+Given a string of lowercase alphabets, count all possible substrings (not necessarily distinct) that have exactly k distinct characters.
 
 **Input:** abc, k = 2 <br>
 **Output:** 2<br>
@@ -112,15 +112,15 @@ Possible substrings are {“ab”, “bc”}<br>
 ### 10. You reached end orzz - Sliding window
 You are given an array of integers, there is a **sliding window** of size $k$ which is moving from the very left of the array to the very right. You can only see the $k$ numbers in the window. Each time the sliding window moves right by one position. **Return an array containing maximum values in each window**
 
-**Input:** arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}, K = 3  <br>
+**Input:** arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}, K = 3  <br>
 **Output:** 3 3 4 5 5 5 6 <br>
 **Explanation:** Maximum of 1, 2, 3 is 3 <br>
-                Maximum of 2, 3, 1 is 3<br>
-                Maximum of 3, 1, 4 is 4<br>
-                       Maximum of 1, 4, 5 is 5<br>
-                       Maximum of 4, 5, 2 is 5 <br>
-                       Maximum of 5, 2, 3 is 5<br>
-                       Maximum of 2, 3, 6 is 6<br>
+                Maximum of 2, 3, 1 is 3<br>
+                Maximum of 3, 1, 4 is 4<br>
+                       Maximum of 1, 4, 5 is 5<br>
+                       Maximum of 4, 5, 2 is 5 <br>
+                       Maximum of 5, 2, 3 is 5<br>
+                       Maximum of 2, 3, 6 is 6<br>
 <br><br>
 # Submission format
 A google form will be floated soon where you need to submit a **zip-file** with name **roll-number.zip** containing the files <br>*q1.cpp, q2.cpp, q3.cpp, q4.cpp, q5.cpp, q6.cpp, q7.cpp, q8.cpp, q9.cpp and q10.cpp* your solutions for the above 10 questions respectively.<br>
