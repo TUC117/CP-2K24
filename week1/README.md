@@ -75,13 +75,13 @@ Return indices of the two numbers such that their sum is equal to the target. Ot
 **Output:** [1,2] <br>
 <br>
 ### 6. Rotationn
-Given an integer array of size N, sorted in ascending order (with distinct values). Now the array is rotated between 1 to N times which is unknown. Find the minimum element in the array
+Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to find the minimum element in it.
 
 **Input:** arr[] = {5, 6, 1, 2, 3, 4} <br>
 **Output:** 1<br>
 **Input:** arr[] = {1, 2, 3, 4}<br>
 **Output:** 1<br>
-<br>
+<br>~
 ### 7. Thala For A Reason
 *Please read concept for basic bit manipulations before solving this question* <br>
 Given an integer n, find number of integers ‘x’ such that:
