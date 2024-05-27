@@ -31,11 +31,11 @@ Second line contains n integers of the array<br>
 **Output format**:<br>
 For each testcase output a single integer as mentioned in the question in a new line<br>
 
-**Input1**: nums = [1], k = 1 <br>
+**Input1**: nums = [1], n = 1, k = 1 <br>
 **Output1**: 1 <br>
-**Input2**: nums = [1, 2], k = 4 <br>
+**Input2**: nums = [1, 2], n = 2, k = 4 <br>
 **Output2**: -1 <br>
-**Input3**: nums = [2, -1, 2], k = 3<br>
+**Input3**: nums = [2, -1, 2], n = 3, k = 3<br>
 **Output3**: 3 <br>
 <br>
 ### 2. Valid Strings
