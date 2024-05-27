@@ -21,8 +21,15 @@ This assignment consists of 10 easy questions. Each student should submit their 
 <br>
 
 ### 1. Think of an Optimal Solution
-Given an integer array and an integer k, return the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, return -1. <br>
+Given an integer array and an integer k, output the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, output -1. <br>
 *Subarray*: A subarray is a contiguous segment of an array. It is defined by selecting a starting index and an ending index within the original array and including all the elements between these two indices. <br>
+
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains two integers n and k. Where n is the size of the array.<br>
+Second line contains n integers of the array<br>
+**Output format**:<br>
+For each testcase output a single integer as mentioned in the question in a new line<br>
 
 **Input1**: nums = [1], k = 1 <br>
 **Output1**: 1 <br>
@@ -38,6 +45,11 @@ A string is valid if :<br>
 2. Open brackets must be closed in the correct order.
 3. Every close bracket has a corresponding open bracket of the same type.
 
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+The only line of each test case contains a string s as described in the question.<br>
+**Output format**:<br>
+For each testcase output true if the string is valid else false<br>
 
 **Input1:** s = "()"<br>
 **Output1:** true<br>
@@ -48,22 +60,36 @@ A string is valid if :<br>
 <br>
 ### 3. Arrays..
 Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.<br>
-Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.<br>
+Output the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.<br>
 The tests are generated such that there is exactly one solution. You may not use the same element twice.<br>
 
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains two integers n and target. Where n is the size of the array<br>
+**Output format**:<br>
+For each testcase output two integers as mentioned above<br>
+
 **Input:** numbers = [2,7,11,15], target = 9 <br>
-**Output:** [1,2]<br>
+**Output:** 1,2<br>
 **Input:** numbers = [2,3,4], target = 6<br>
-**Output:** [1,3]<br>
+**Output:** 1,3<br>
 **Input:** numbers = [-1,0], target = -1 <br>
-**Output:** [1,2] <br>
+**Output:** 1,2 <br>
 <br>
 ### 4. Largest Sum - Kadane’s Algorithm
-Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum return its sum and prints the subarray.
+Given an array arr[] of size N. The task is to find the sum of the contiguous subarray within a arr[] with the largest sum and print it. 
 
-**Input:** arr = {-2,-3,4,-1,-2,1,5,-3} <br>
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains an integer n.<br>
+Second line has n integers of the array.<br>
+**Output format**:<br>
+For each testcase output a single integer as mentioned above<br>
+
+
+**Input:** N = 8, arr = {-2,-3,4,-1,-2,1,5,-3} <br>
 **Output:** 7<br>
-**Input:** arr = {2}<br>
+**Input:** N = 1, arr = {2}<br>
 **Output:** 2<br>
 <br>
 ### 5. More on Arrayss
@@ -86,15 +112,15 @@ Given a sorted array (may be distinct or may contain duplicates) of size N that 
 *Please read concept for basic bit manipulations before solving this question* <br>
 Given an integer n, find number of integers ‘x’ such that:
 1. $0<= x <= n.$
-2. $n - x = n\  XOR\  x$
+2. $n + x = n\  XOR\  x$
 
-**Input**: $n=5$<br>
+**Input**: $n=4$<br>
 **Output**:4<br>
 Following values of x satisfy the equation <br>
-$5 \ XOR \ 0 = 5 \ – \ 0 = 5$ <br>
-$5\  XOR\  1 = 5 \ – \ 1 = 4$ <br>
-$5 \ XOR \ 4 = 5\  – \ 4 = 1$ <br>
-$5 \ XOR \ 5 = 5\  – \ 5 = 0$ <br>
+$4 \ XOR \ 0 = 4 \ + \ 0 = 4$ <br>
+$4\  XOR\  1 = 4 \ + \ 1 = 5$ <br>
+$4 \ XOR \ 2 = 4\  + \ 2 = 6$ <br>
+$4 \ XOR \ 3 = 4\  + \ 3 = 7$ <br>
 <br>
 ### 8. XOR XOR XOR XOR
 Given an array of integers $A$ and an integer $B$. Find the total number of subarrays having bitwise $XOR$ of all elements equal to $k$.
