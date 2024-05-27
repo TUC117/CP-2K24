@@ -66,6 +66,7 @@ The tests are generated such that there is exactly one solution. You may not use
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
+Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
 For each testcase output two integers as mentioned above in a new line<br>
 
@@ -98,6 +99,7 @@ Return indices of the two numbers such that their sum is equal to the target. Ot
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
+Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
 For each testcase output two integers as mentioned above in a new line<br>
 
@@ -107,7 +109,7 @@ For each testcase output two integers as mentioned above in a new line<br>
 **Output:** 1,2 <br>
 <br>
 ### 6. Rotationn
-Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to find the minimum element in it.
+Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to print the minimum element in it.
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
@@ -124,7 +126,7 @@ For each testcase output an integer as mentioned above in a new line<br>
 
 ### 7. Thala For A Reason
 *Please read concept for basic bit manipulations before solving this question* <br>
-Given an integer n, find number of integers ‘x’ and print it such that:
+Given an integer n, print number of integers ‘x’ such that:
 1. $0<= x <= n.$
 2. $n + x = n\  XOR\  x$
 
@@ -145,7 +147,7 @@ $4 \ XOR \ 2 = 4\  + \ 2 = 6$ <br>
 $4 \ XOR \ 3 = 4\  + \ 3 = 7$ <br>
 <br>
 ### 8. XOR XOR XOR XOR
-Given an array of integers $arr$ and an integer $m$. Print the total number of subarrays having bitwise $XOR$ of all elements equal to $k$.
+Given an array of integers $arr$ and an integer $m$. Print the total number of subarrays having bitwise $XOR$ of all elements equal to $m$.
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
