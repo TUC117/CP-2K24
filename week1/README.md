@@ -86,7 +86,7 @@ Given a sorted array (may be distinct or may contain duplicates) of size N that 
 *Please read concept for basic bit manipulations before solving this question* <br>
 Given an integer n, find number of integers ‘x’ such that:
 1. $0<= x <= n.$
-2. $n + x = n\  XOR\  x$
+2. $n - x = n\  XOR\  x$
 
 **Input**: $n=5$<br>
 **Output**:4<br>
