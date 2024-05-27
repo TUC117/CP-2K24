@@ -70,7 +70,7 @@ Each test contains multiple test cases. The first line of input contains a singl
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
 Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
-For each testcase output two integers as mentioned above seperated by space in a new line<br>
+For each test case, output two integers separated by a space on a new line. Ensure each test case is output on a separate line.<br>
 
 **Input:** numbers = [2,7,11,15], target = 9 <br>
 **Output:** 1 2<br>
@@ -79,6 +79,7 @@ For each testcase output two integers as mentioned above seperated by space in a
 **Input:** numbers = [-1,0], target = -1 <br>
 **Output:** 1 2 <br>
 <br>
+
 ### 4. Largest Sum - Kadane’s Algorithm
 Given an array arr[] of size N. The task is to print the sum of the contiguous subarray within a arr[] with the largest sum. 
 
@@ -104,7 +105,7 @@ Each test contains multiple test cases. The first line of input contains a singl
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
 Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
-For each testcase output two integers as mentioned above seperated by space in a new line <br>
+For each test case, output two integers separated by a space on a new line. Ensure each test case is output on a separate line.<br>
 
 **Input:** $nums = [2,7,11,15], n = 4, target = 9$<br>
 **Output:** 0 1 <br>
