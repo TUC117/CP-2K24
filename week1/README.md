@@ -49,7 +49,7 @@ A string is valid if :<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 The only line of each test case contains a string s as described in the question.<br>
 **Output format**:<br>
-For each testcase output true if the string is valid else false<br>
+For each testcase output true if the string is valid else false in a new line<br>
 
 **Input1:** s = "()"<br>
 **Output1:** true<br>
@@ -67,7 +67,7 @@ The tests are generated such that there is exactly one solution. You may not use
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
 **Output format**:<br>
-For each testcase output two integers as mentioned above<br>
+For each testcase output two integers as mentioned above in a new line<br>
 
 **Input:** numbers = [2,7,11,15], target = 9 <br>
 **Output:** 1,2<br>
@@ -84,7 +84,7 @@ Each test contains multiple test cases. The first line of input contains a singl
 First line of each test case contains an integer n.<br>
 Second line has n integers of the array.<br>
 **Output format**:<br>
-For each testcase output a single integer as mentioned above<br>
+For each testcase output a single integer as mentioned above in a new line<br>
 
 
 **Input:** N = 8, arr = {-2,-3,4,-1,-2,1,5,-3} <br>
@@ -95,27 +95,49 @@ For each testcase output a single integer as mentioned above<br>
 ### 5. More on Arrayss
 Return indices of the two numbers such that their sum is equal to the target. Otherwise, we will return {-1, -1}.
 
-**Input:** $nums = [2,7,11,15], target = 9$<br>
-**Output:** [0,1] <br>
-**Input:** nums = [3, 2, 4], target = 6 <br>
-**Output:** [1,2] <br>
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains two integers n and target. Where n is the size of the array<br>
+**Output format**:<br>
+For each testcase output two integers as mentioned above in a new line<br>
+
+**Input:** $nums = [2,7,11,15], n = 4, target = 9$<br>
+**Output:** 0,1 <br>
+**Input:** nums = [3, 2, 4], n = 3, target = 6 <br>
+**Output:** 1,2 <br>
 <br>
 ### 6. Rotationn
 Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to find the minimum element in it.
 
-**Input:** arr[] = {5, 6, 1, 2, 3, 4} <br>
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case an integer n. Where n is the size of the array<br>
+Second line contains n integers of the array.<br>
+**Output format**:<br>
+For each testcase output an integer as mentioned above in a new line<br>
+
+**Input:** n = 6, arr[] = {5, 6, 1, 2, 3, 4} <br>
 **Output:** 1<br>
-**Input:** arr[] = {1, 2, 3, 4}<br>
+**Input:** n = 4, arr[] = {1, 2, 3, 4}<br>
 **Output:** 1<br>
-<br>~
+<br>
+
 ### 7. Thala For A Reason
 *Please read concept for basic bit manipulations before solving this question* <br>
-Given an integer n, find number of integers ‘x’ such that:
+Given an integer n, find number of integers ‘x’ and print it such that:
 1. $0<= x <= n.$
 2. $n + x = n\  XOR\  x$
 
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+The only line of each test case an integer n.<br>
+**Output format**:<br>
+For each testcase output an integer as mentioned above in a new line<br>
+
+
 **Input**: $n=4$<br>
 **Output**:4<br>
+**Explination**:<br>
 Following values of x satisfy the equation <br>
 $4 \ XOR \ 0 = 4 \ + \ 0 = 4$ <br>
 $4\  XOR\  1 = 4 \ + \ 1 = 5$ <br>
@@ -123,21 +145,44 @@ $4 \ XOR \ 2 = 4\  + \ 2 = 6$ <br>
 $4 \ XOR \ 3 = 4\  + \ 3 = 7$ <br>
 <br>
 ### 8. XOR XOR XOR XOR
-Given an array of integers $A$ and an integer $B$. Find the total number of subarrays having bitwise $XOR$ of all elements equal to $k$.
+Given an array of integers $arr$ and an integer $m$. Print the total number of subarrays having bitwise $XOR$ of all elements equal to $k$.
+
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains two integers n and m. Where n is the size of the array<br>
+Second line contains n integers of the array.<br>
+**Output format**:<br>
+For each testcase output an integer as mentioned above in a new line<br>
 
 **Input:** $arr[] = {4, 2, 2, 6, 4}, m = 6 $<br>
 **Output:** $4$ <br>
 **Explanation:** The subarrays having XOR of their elements as $6$ are {4, 2}, {4, 2, 2, 6, 4}, {2, 2, 6} and {6}<br>
 <br>
+
 ### 9. String.. String.. where are your substrings
-Given a string of lowercase alphabets, count all possible substrings (not necessarily distinct) that have exactly k distinct characters.
+Given a string of lowercase alphabets, print all possible substrings (not necessarily distinct) that have exactly k distinct characters.
+
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains an integer k.<br>
+Second line contains a string s.<br>
+**Output format**:<br>
+For each testcase output an integer as mentioned above in a new line<br>
 
 **Input:** abc, k = 2 <br>
 **Output:** 2<br>
 Possible substrings are {“ab”, “bc”}<br>
 <br>
+
 ### 10. You reached end orzz - Sliding window
-You are given an array of integers, there is a **sliding window** of size $k$ which is moving from the very left of the array to the very right. You can only see the $k$ numbers in the window. Each time the sliding window moves right by one position. **Return an array containing maximum values in each window**
+You are given an array of integers, there is a **sliding window** of size $k$ which is moving from the very left of the array to the very right. You can only see the $k$ numbers in the window. Each time the sliding window moves right by one position. **Print an array containing maximum values in each window**
+
+**Input Format**:<br>
+Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
+First line of each test case contains two integers n and k. Where n is the size of the array.<br>
+Second line contains n integers of the array.<br>
+**Output format**:<br>
+For each test case, output the specified array elements separated by spaces, each on a new line. <br>
 
 **Input:** arr[] = {1, 2, 3, 1, 4, 5, 2, 3, 6}, K = 3  <br>
 **Output:** 3 3 4 5 5 5 6 <br>
