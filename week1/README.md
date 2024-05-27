@@ -21,7 +21,7 @@ This assignment consists of 10 easy questions. Each student should submit their 
 <br>
 
 ### 1. Think of an Optimal Solution
-Given an integer array and an integer k, output the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, output -1. <br>
+Given an integer array nums and an integer k, output the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, output -1. <br>
 *Subarray*: A subarray is a contiguous segment of an array. It is defined by selecting a starting index and an ending index within the original array and including all the elements between these two indices. <br>
 
 **Input Format**:<br>
@@ -38,6 +38,7 @@ For each testcase output a single integer as mentioned in the question in a new 
 **Input3**: nums = [2, -1, 2], n = 3, k = 3<br>
 **Output3**: 3 <br>
 <br>
+
 ### 2. Valid Strings
 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.<br>
 A string is valid if :<br>
@@ -58,8 +59,9 @@ For each testcase output true if the string is valid else false in a new line<br
 **Input3:** s = "(]"<br>
 **Output3:** false<br>
 <br>
+
 ### 3. Arrays..
-Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.<br>
+Given a 1-indexed array of integers numbers that is already sorted in **non-decreasing** order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.<br>
 Output the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.<br>
 The tests are generated such that there is exactly one solution. You may not use the same element twice.<br>
 
@@ -68,17 +70,17 @@ Each test contains multiple test cases. The first line of input contains a singl
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
 Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
-For each testcase output two integers as mentioned above in a new line<br>
+For each testcase output two integers as mentioned above seperated by space in a new line<br>
 
 **Input:** numbers = [2,7,11,15], target = 9 <br>
-**Output:** 1,2<br>
+**Output:** 1 2<br>
 **Input:** numbers = [2,3,4], target = 6<br>
-**Output:** 1,3<br>
+**Output:** 1 3<br>
 **Input:** numbers = [-1,0], target = -1 <br>
-**Output:** 1,2 <br>
+**Output:** 1 2 <br>
 <br>
 ### 4. Largest Sum - Kadane’s Algorithm
-Given an array arr[] of size N. The task is to find the sum of the contiguous subarray within a arr[] with the largest sum and print it. 
+Given an array arr[] of size N. The task is to print the sum of the contiguous subarray within a arr[] with the largest sum. 
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
@@ -93,21 +95,25 @@ For each testcase output a single integer as mentioned above in a new line<br>
 **Input:** N = 1, arr = {2}<br>
 **Output:** 2<br>
 <br>
+
 ### 5. More on Arrayss
-Return indices of the two numbers such that their sum is equal to the target. Otherwise, we will return {-1, -1}.
+Print indices of the two numbers of the array nums such that their sum is equal to the target. Otherwise print {-1, -1}.
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
 Second line of each test case contains n integers of the array.<br>
 **Output format**:<br>
-For each testcase output two integers as mentioned above in a new line<br>
+For each testcase output two integers as mentioned above seperated by space in a new line <br>
 
 **Input:** $nums = [2,7,11,15], n = 4, target = 9$<br>
-**Output:** 0,1 <br>
+**Output:** 0 1 <br>
 **Input:** nums = [3, 2, 4], n = 3, target = 6 <br>
-**Output:** 1,2 <br>
+**Output:** 1 2 <br>
+**Input:** nums = [2, 10], n = 3, target = 60 <br>
+**Output:** -1 -1 <br>
 <br>
+
 ### 6. Rotationn
 Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to print the minimum element in it.
 
