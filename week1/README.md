@@ -2,7 +2,7 @@
 
 In this repository, you can find assignment for Week 1.
 
-**Deadline for submission of this assignment: June 1, 2024, 11.59 p.m. IST**
+**Deadline for submission of this assignment: June 2, 2024, 11.59 p.m. IST**
 <br><br><br><br>
 # Disclaimer
 All submissions will be subjected to plagiarism checks. Any instances of copying will result in immediate disqualification, and you will not receive a certificate for this Summer of Code (SOC) program. <br> **It is important that you fully understand the material you are submitting**.
