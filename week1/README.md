@@ -47,6 +47,9 @@ A string is valid if :<br>
 2. Open brackets must be closed in the correct order.
 3. Every close bracket has a corresponding open bracket of the same type.
 
+**Expected Complexity**:<br>
+O(n) solution is expected<br>
+
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 The only line of each test case contains a string s as described in the question.<br>
@@ -65,7 +68,8 @@ For each testcase output true if the string is valid else false in a new line<br
 Given a 1-indexed array of integers numbers that is already sorted in **non-decreasing** order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.<br>
 Output the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.<br>
 The tests are generated such that there is exactly one solution. You may not use the same element twice.<br>
-
+**Expected Complexity**:<br>
+O(n) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
@@ -83,7 +87,8 @@ For each test case, output two integers separated by a space on a new line. Ensu
 
 ### 4. Largest Sum - Kadane’s Algorithm
 Given an array arr[] of size N. The task is to print the sum of the contiguous subarray within a arr[] with the largest sum. 
-
+**Expected Complexity**:<br>
+O(n) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains an integer n.<br>
@@ -100,7 +105,8 @@ For each testcase output a single integer as mentioned above in a new line<br>
 
 ### 5. More on Arrayss
 Print indices of the two numbers of the array nums such that their sum is equal to the target. Otherwise print {-1, -1}.
-
+**Expected Complexity**:<br>
+O(nlogn) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
@@ -118,7 +124,8 @@ For each test case, output two integers separated by a space on a new line. Ensu
 
 ### 6. Rotationn
 Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to print the minimum element in it.
-
+**Expected Complexity**:<br>
+O(logn) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case an integer n. Where n is the size of the array<br>
@@ -137,6 +144,8 @@ For each testcase output an integer as mentioned above in a new line<br>
 Given an integer n, print number of integers ‘x’ such that:
 1. $0<= x <= n.$
 2. $n + x = n\  XOR\  x$
+**Expected Complexity**:<br>
+O(logn) solution is expected.Hint is no. of bits in n is O(logn) <br>
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
