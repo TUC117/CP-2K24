@@ -123,7 +123,7 @@ For each test case, output two integers separated by a space on a new line. Ensu
 <br>
 
 ### 6. Rotationn
-Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to print the minimum element in it.
+Given a sorted array (may be distinct or may contain duplicates) of size N that is rotated at some unknown point, the task is to print the minimum element in it.<br>
 **Expected Complexity**:<br>
 O(logn) solution is expected<br>
 **Input Format**:<br>
@@ -143,7 +143,7 @@ For each testcase output an integer as mentioned above in a new line<br>
 *Please read concept for basic bit manipulations before solving this question* <br>
 Given an integer n, print number of integers ‘x’ such that:
 1. $0<= x <= n.$
-2. $n + x = n\  XOR\  x$
+2. $n + x = n\  XOR\  x$<br>
 **Expected Complexity**:<br>
 O(logn) solution is expected.Hint is no. of bits in n is O(logn) <br>
 
