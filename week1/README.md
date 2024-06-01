@@ -144,6 +144,7 @@ For each testcase output an integer as mentioned above in a new line<br>
 Given an integer n, print number of integers ‘x’ such that:
 1. $0<= x <= n.$
 2. $n + x = n\  XOR\  x$<br>
+
 **Expected Complexity**:<br>
 O(logn) solution is expected.Hint is no. of bits in n is O(logn) <br>
 
