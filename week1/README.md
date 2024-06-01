@@ -180,7 +180,7 @@ For each testcase output an integer as mentioned above in a new line<br>
 <br>
 
 ### 9. String.. String.. where are your substrings
-Given a string of lowercase alphabets, print all possible substrings (not necessarily distinct) that have exactly k distinct characters.
+Given a string of lowercase alphabets, count all possible substrings (not necessarily distinct) that have exactly k distinct characters.
 
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
