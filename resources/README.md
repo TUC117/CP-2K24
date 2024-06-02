@@ -8,7 +8,10 @@ Welcome to the world of competitive programming! As your mentors, we are here to
 This book is an excellent starting point to dive deep into competitive programming. It covers fundamental topics and advanced techniques essential for excelling in programming contests. Make sure to go through this book thoroughly and practice the problems provided.
 Remember, to become a pro in competitive programming, you need more practice than theory. This book is sufficient for the theory part. If you still need assistance with a particular topic, you can reach out to any one of us, or you can find additional resources online.
 
-### 2. Online Judges and Practice Platforms
+### 2. [Roadmap topic wise](https://neetcode.io/roadmap)
+As some of you have requested topic wise roadmap you can use this.
+
+### 3. Online Judges and Practice Platforms
 - **[Codeforces](https://codeforces.com/)**
 - **[HackerRank](https://www.hackerrank.com/)**
 - **[LeetCode](https://leetcode.com/)**
