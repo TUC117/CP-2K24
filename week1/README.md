@@ -106,7 +106,7 @@ For each testcase output a single integer as mentioned above in a new line<br>
 ### 5. More on Arrayss
 Print indices of the two numbers of the array nums such that their sum is equal to the target. Otherwise print {-1, -1}.
 **Expected Complexity**:<br>
-O(nlogn) solution is expected<br>
+O(n) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and target. Where n is the size of the array<br>
