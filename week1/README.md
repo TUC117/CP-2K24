@@ -24,7 +24,7 @@ This assignment consists of 10 easy questions. Each student should submit their 
 Given an integer array nums and an integer k, output the length of the shortest non-empty subarray whose sum is at least k. If there is no such subarray, output -1. <br>
 *Subarray*: A subarray is a contiguous segment of an array. It is defined by selecting a starting index and an ending index within the original array and including all the elements between these two indices. <br>
 **Expected Complexity**:<br>
-O(n) solution is expected<br>
+O(n) or O(nlogn) solution is expected<br>
 **Input Format**:<br>
 Each test contains multiple test cases. The first line of input contains a single integer $t$ $1≤t≤100$ — the number of test cases. The description of the test cases follows.<br>
 First line of each test case contains two integers n and k. Where n is the size of the array.<br>
