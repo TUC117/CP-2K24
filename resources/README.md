@@ -19,7 +19,7 @@ As some of you have requested topic wise roadmap you can use this.
 - **[Codechef](https://www.codechef.com/)**
 
 ### 4. Graphs
-- **[A2Z](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)** - Go through Lecture 1 and Lecture 2 (Basic problems) 
+- **[A2Z](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)** - Go through Graphs Lecture 1 and Lecture 2 (Basic problems) 
 - **[NPTEL](https://www.youtube.com/playlist?list=PLBF3763AF2E1C572F)** - You Can go through the lectures 24, 25, 26, 27, 28 for understanding concepts of bfs and dfs if you are comfortable with NPTEL
 - **[The Competitive Programmer’s Handbook](https://cses.fi/book/book.pdf)** - Refer to the graphs topic in this notebook
 
